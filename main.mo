@@ -20,4 +20,13 @@ actor hesap_makinesi{
         hucre *=s;
         hucre
     };
+    public func bolme(s:Int):async ?Int{
+     if(s==0) {
+        null
+     }else {
+        hucre /=s;
+        ?hucre;
+     }
+
+    };
 };
