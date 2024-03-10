@@ -27,6 +27,8 @@ actor hesap_makinesi{
         hucre /=s;
         ?hucre;
      }
-
+    };
+    public func temizle():async(){
+        hucre:=0;
     };
 };
