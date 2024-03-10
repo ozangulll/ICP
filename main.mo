@@ -12,4 +12,8 @@ actor hesap_makinesi{
         hucre
      
     };
+    public func cikarma(s:Int):async Int{
+        hucre -=s;
+        hucre
+    };
 };
